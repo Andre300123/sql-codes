@@ -1,0 +1,167 @@
+
+  Obs   Make     Model    Type  Origin  DriveTrain   MSRP  Invoice  EngineSize  Cylinders  Horsepower  MPG_City  MPG_Highway  Weight  Wheelbase  Length
+    1  Acura  A334 4dr  Sedan   Asia    Rear        24620    21911         2.6          6         227        21           26    3545        102     178
+    2  Acura  A764 4dr  Sedan   Asia    Front       23010    20478         2.9          6         231        21           33    3275        109     193
+    3  Acura  A804 4dr  Sedan   Asia    Front       32010    28488         2.8          6         223        22           27    2735        102     174
+    4  Acura  E162 4dr  Sedan   Asia    Front       20645    18993         2.5          6         196        20           31    3470        104     174
+    5  Acura  E592 4dr  Sedan   Asia    Front       26255    24154         2.9          6         200        20           30    3195        111     190
+    6  Acura  G643 2dr  Sports  Asia    All         48970    43093         3.6          8         334        16           23    3410        100     175
+    7  Acura  G839 SUV  SUV     Asia    Front       41670    37086         4.2          8         309        12           22    5260        111     175
+    8  Acura  K420 4dr  Sedan   Asia    Rear        29500    26550         2.9          6         169        18           27    3585        101     186
+    9  Acura  K890 4dr  Sedan   Asia    Front       23890    21501         2.5          6         165        19           28    2770        105     183
+   10  Acura  M471 2dr  Sports  Asia    Rear        49000    44590         3.6          8         318        15           28    3835        102     184
+
+                                                  The MEANS Procedure
+
+ Variable     Label                              Mean        Std Dev        Minimum        Maximum         N
+ -----------------------------------------------------------------------------------------------------------
+ MPG_Highway  Highway miles per gallon     27.5000000      4.0214074     17.0000000     33.0000000       100
+ -----------------------------------------------------------------------------------------------------------
+
+                                                   The FREQ Procedure
+
+                                          Cumulative    Cumulative
+Manufacturer    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+Acura                  18     18.00           18        18.00
+Audi                   17     17.00           35        35.00
+BMW                    17     17.00           52        52.00
+Buick                  18     18.00           70        70.00
+Cadillac               19     19.00           89        89.00
+Chevrolet              11     11.00          100       100.00
+
+No observations in dataset.
+
+  Obs       Make        Model    Type  Origin  DriveTrain   MSRP  Invoice  EngineSize  Cylinders  Horsepower  MPG_City  MPG_Highway  Weight  Wheelbase  Length  price_category
+    1  Acura      A334 4dr     Sedan   Asia    Rear        24620    21911         2.6          6         227        21           26    3545        102     178  low
+    2  Acura      A764 4dr     Sedan   Asia    Front       23010    20478         2.9          6         231        21           33    3275        109     193  low
+    3  Acura      A804 4dr     Sedan   Asia    Front       32010    28488         2.8          6         223        22           27    2735        102     174  med
+    4  Acura      E162 4dr     Sedan   Asia    Front       20645    18993         2.5          6         196        20           31    3470        104     174  low
+    5  Acura      E592 4dr     Sedan   Asia    Front       26255    24154         2.9          6         200        20           30    3195        111     190  med
+    6  Acura      G643 2dr     Sports  Asia    All         48970    43093         3.6          8         334        16           23    3410        100     175  med
+    7  Acura      G839 SUV     SUV     Asia    Front       41670    37086         4.2          8         309        12           22    5260        111     175  med
+    8  Acura      K420 4dr     Sedan   Asia    Rear        29500    26550         2.9          6         169        18           27    3585        101     186  med
+    9  Acura      K890 4dr     Sedan   Asia    Front       23890    21501         2.5          6         165        19           28    2770        105     183  low
+   10  Acura      M471 2dr     Sports  Asia    Rear        49000    44590         3.6          8         318        15           28    3835        102     184  med
+   11  Acura      R248 4dr     Sedan   Asia    All         25525    22462         2.8          6         164        25           33    3505        103     195  med
+   12  Acura      R678 4dr     Sedan   Asia    Front       31135    27398         3.2          8         168        24           32    3235        110     198  med
+   13  Acura      R718 4dr     Sedan   Asia    Front       27135    23878         2.5          6         160        25           33    3780        103     180  med
+   14  Acura      S925 SUV     SUV     Asia    All         32550    29295         4.5          8         201        17           23    3930        110     196  med
+   15  Acura      T506 4dr     Sedan   Asia    Front       21375    19451         2.6          6         232        23           29    3160        100     181  low
+   16  Acura      T976 4dr     Sedan   Asia    Front       28770    26180         2.8          6         228        23           30    2810        105     192  med
+   17  Acura      V321 Wagon   Wagon   Asia    Front       25180    22913           3          6         173        23           27    3210        100     177  med
+   18  Acura      V557 2dr     Sports  Asia    Rear        43880    40369         3.9          8         326        19           21    3615        101     167  med
+   19  Audi       A962 SUV     SUV     Europe  All         43665    40171         4.2          8         264        13           17    5245        105     178  med
+   20  Audi       C113 4dr     Sedan   Europe  All         20670    18189         2.6          6         161        19           32    3570        108     185  low
+   21  Audi       C543 4dr     Sedan   Europe  Front       26275    23122         2.9          6         165        19           31    3300        103     189  med
+   22  Audi       E358 Wagon   Wagon   Europe  Front       28295    24899         2.7          6         218        19           29    2830        107     185  med
+   23  Audi       E594 2dr     Sports  Europe  Rear        38995    34705         3.7          8         348        15           23    3675         96     187  med
+   24  Audi       G371 4dr     Sedan   Europe  Front       29520    26863         2.9          6         229        18           28    3685        105     197  med
+   25  Audi       G801 4dr     Sedan   Europe  Front       22130    20138         2.7          6         233        25           27    2950        104     175  low
+   26  Audi       G841 4dr     Sedan   Europe  Front       23910    21758         2.5          6         225        18           29    2875        109     182  low
+   27  Audi       M199 4dr     Sedan   Europe  Rear        25550    22739         2.9          6         198        24           33    3610        107     194  med
+   28  Audi       M629 4dr     Sedan   Europe  Front       31155    27727         2.7          6         202        24           32    3335        106     197  med
+   29  Audi       R680 2dr     Sports  Europe  Rear        56875    51187         3.4          8         356        20           25    3470         95     169  hig
+   30  Audi       R876 SUV     SUV     Europe  All         34790    31658         3.9          8         281        16           24    4985        106     195  med
+   31  Audi       S457 4dr     Sedan   Europe  Front       21400    19688         2.6          6         197        22           30    3260        104     180  low
+   32  Audi       S927 4dr     Sedan   Europe  Front       28790    26486         2.8          6         193        23           30    2910        109     191  med
+   33  Audi       V285 4dr     Sedan   Europe  Rear        24640    22176         2.6          6         166        21           27    3645        106     177  low
+   34  Audi       V715 4dr     Sedan   Europe  Front       23035    20731           3          6         170        21           26    3375        105     192  low
+   35  Audi       V755 4dr     Sedan   Europe  Front       32035    28831         2.2          6         162        21           28    2835        110     174  med
+   36  BMW        A494 4dr     Sedan   Europe  Front       26300    23407         2.4          6         199        19           32    3400        111     188  med
+   37  BMW        A964 4dr     Sedan   Europe  Rear        20690    18414         2.6          6         195        19           33    3050        100     185  low
+   38  BMW        E322 4dr     Sedan   Europe  Front       29545    27181         2.3          6         168        25           29    3785        101     197  med
+   39  BMW        E752 4dr     Sedan   Europe  All         22150    20378         2.7          6         172        25           28    3515        108     174  low
+   40  BMW        E792 4dr     Sedan   Europe  Front       23935    22020         2.6          6         190        25           30    2975        102     181  low
+   41  BMW        G999 SUV     SUV     Europe  Front       35570    31657           4          8         236        17           20    5030        108     197  med
+   42  BMW        K150 4dr     Sedan   Europe  Rear        19785    17806         2.3          6         163        24           26    3710        103     193  low
+   43  BMW        K580 4dr     Sedan   Europe  Front       31180    28062         2.7          6         167        23           33    3435        110     182  med
+   44  BMW        M395 Wagon   Wagon   Europe  All         26195    23575         3.1          6         168        24           31    3585        110     179  med
+   45  BMW        M631 2dr     Sports  Europe  Rear        46895    42674         3.4          8         235        20           25    3735         99     168  med
+   46  BMW        R408 4dr     Sedan   Europe  Front       21420    18849         2.7          6         231        22           30    2740        100     179  low
+   47  BMW        R838 4dr     Sedan   Europe  Rear        27030    23786         2.4          6         234        21           29    3090        107     182  med
+   48  BMW        R878 4dr     Sedan   Europe  All         28815    25357         2.3          6         227        22           31    3010        101     176  med
+   49  BMW        T236 4dr     Sedan   Europe  Front       24665    22445         2.6          6         226        20           27    3745        102     176  low
+   50  BMW        T666 4dr     Sedan   Europe  Front       30275    27550         2.4          6         230        20           27    3475        109     191  med
+   51  BMW        V717 2dr     Sports  Europe  Rear        41775    38433         3.7          8         227        16           27    3530         98     177  med
+   52  BMW        V913 SUV     SUV     Europe  All         44690    39327         3.7          8         253        13           18    4765        109     177  med
+   53  Buick      C273 4dr     Sedan   USA     Front       29565    26017         2.4          6         228        24           30    2800        105     196  med
+   54  Buick      C703 4dr     Sedan   USA     Rear        22175    19514         2.8          6         231        24           29    3615        100     173  low
+   55  Buick      E518 Wagon   Wagon   USA     All         24975    21978         2.5          6         182        17           27    3370        104     181  low
+   56  Buick      E754 2dr     Sports  USA     Rear        49675    44210         3.5          8         265        20           22    3590        105     171  med
+   57  Buick      E950 SUV     SUV     USA     All         36590    32931           4          8         191        17           20    4550        104     197  med
+   58  Buick      G101 4dr     Sedan   USA     Front       19810    18027         2.3          6         197        23           27    3190        107     192  low
+   59  Buick      G531 4dr     Sedan   USA     Front       31200    28392         2.7          6         200        23           26    3535        102     182  med
+   60  Buick      M359 4dr     Sedan   USA     Front       21445    19086         2.7          6         196        21           31    2840        104     178  low
+   61  Buick      M789 4dr     Sedan   USA     Rear        27050    24074         2.5          6         199        21           30    3650        111     194  med
+   62  Buick      M829 4dr     Sedan   USA     Rear        28835    25663         2.3          6         192        22           32    3110        109     175  med
+   63  Buick      R136 SUV     SUV     USA     All         27470    24997         3.7          8         208        13           22    4815        115     179  med
+   64  Buick      S187 4dr     Sedan   USA     Front       24690    22714         2.1          6         165        20           28    2765        106     187  low
+   65  Buick      S617 4dr     Sedan   USA     All         30295    27871         2.4          6         168        19           27    3575        101     190  med
+   66  Buick      T432 Wagon   Wagon   USA     Front       24095    22167         2.8          6         210        20           26    3455        105     187  low
+   67  Buick      T668 2dr     Sports  USA     All         54795    48219         3.2          8         257        16           28    3795         94     188  hig
+   68  Buick      V445 4dr     Sedan   USA     Front       26325    23692         2.4          6         164        18           32    2880        103     173  med
+   69  Buick      V875 4dr     Sedan   USA     Front       31930    28737         2.8          6         167        18           31    3225        103     176  med
+   70  Buick      V915 4dr     Sedan   USA     Rear        27930    25137           2          6         160        18           33    3150        108     184  med
+   71  Cadillac   A224 4dr     Sedan   USA     Front       29590    26335         2.4          6         192        24           30    2905        109     195  med
+   72  Cadillac   A654 4dr     Sedan   USA     Rear        22195    19753         2.2          6         196        24           29    3715        108     184  low
+   73  Cadillac   C469 Wagon   Wagon   USA     Front       22000    19580         2.6          6         164        24           28    3075        108     181  low
+   74  Cadillac   C705 2dr     Sports  USA     Rear        39700    35730         3.5          8         279        20           22    2755         97     170  med
+   75  Cadillac   E482 4dr     Sedan   USA     All         25440    23404         2.2          6         165        22           26    3640        110     181  med
+   76  Cadillac   E912 4dr     Sedan   USA     Front       23830    21923         2.5          6         169        22           26    3365        106     184  low
+   77  Cadillac   E952 4dr     Sedan   USA     Front       19830    18243         2.4          6         162        22           27    3290        111     178  low
+   78  Cadillac   G259 SUV     SUV     USA     Front       29465    26223         3.8          8         254        14           17    4865        105     182  med
+   79  Cadillac   K310 4dr     Sedan   USA     Front       21465    19318         2.1          6         229        21           32    2940        100     177  low
+   80  Cadillac   K740 4dr     Sedan   USA     Front       27075    24367         2.5          6         233        20           31    3750        108     193  med
+   81  Cadillac   M555 Wagon   Wagon   USA     Front       22875    20587         2.9          6         224        21           29    2990        107     189  low
+   82  Cadillac   M791 2dr     Sports  USA     Rear        44795    40763         3.2          8         287        17           23    3650         96     179  med
+   83  Cadillac   M987 SUV     SUV     USA     Front       28495    26215         3.8          8         288        13           22    4335        107     178  med
+   84  Cadillac   R138 4dr     Sedan   USA     Front       24710    21744         2.1          6         225        19           29    2865        110     186  low
+   85  Cadillac   R568 4dr     Sedan   USA     Rear        30320    26681         2.5          6         228        19           28    3675        109     189  med
+   86  Cadillac   T396 4dr     Sedan   USA     Front       26345    23973         2.4          6         197        25           33    2980        111     198  med
+   87  Cadillac   T826 4dr     Sedan   USA     Front       31955    29079         2.2          6         201        25           32    3330        107     175  med
+   88  Cadillac   T866 4dr     Sedan   USA     Front       27955    25439         2.1          6         194        18           26    3250        100     183  med
+   89  Cadillac   V173 SUV     SUV     USA     All         38585    33954         3.5          8         271        18           24    4600        106     173  med
+   90  Chevrolet  A248 Pickup  Truck   USA     All         31770    27957         4.8         12         214        15           17    4575        124     221  med
+   91  Chevrolet  C433 4dr     Sedan   USA     Rear        25465    22409         2.2          6         199        21           27    3120        102     180  med
+   92  Chevrolet  C863 4dr     Sedan   USA     Front       23855    20992         2.6          6         203        21           26    3465        110     195  low
+   93  Chevrolet  C903 4dr     Sedan   USA     Front       19855    17472         3.2          8         195        22           28    3390        107     177  low
+   94  Chevrolet  E210 SUV     SUV     USA     All         30490    27441         3.8          8         243        14           18    4385        113     181  med
+   95  Chevrolet  E556 Pickup  Truck   USA     All         30485    27741         4.2          8         271        12           23    3990        130     208  med
+   96  Chevrolet  G261 4dr     Sedan   USA     Front       21490    19555         2.2          6         194        20           32    3040        104     189  low
+   97  Chevrolet  G691 4dr     Sedan   USA     Front       27100    24661         1.9          4         198        20           31    2770        100     192  med
+   98  Chevrolet  K506 Wagon   Wagon   USA     All         25115    22854         2.3          6         206        20           30    3830         99     188  med
+   99  Chevrolet  K742 2dr     Sports  USA     Rear        34815    32029         3.3          8         317        16           24    2820        104     178  med
+  100  Chevrolet  M519 4dr     Sedan   USA     Rear        30340    27002         1.9          4         167        18           29    3775        101     189  med
+
+                                                   The FREQ Procedure
+
+                                            Cumulative    Cumulative
+price_category    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------
+hig                       2      2.00            2         2.00
+low                      33     33.00           35        35.00
+med                      65     65.00          100       100.00
+                                                  The MEANS Procedure
+
+                                         Analysis Variable : MPG_City City miles per gallon
+
+                                                             N
+                                         price_category    Obs            Mean
+                                         -------------------------------------
+                                         hig                 2      18.0000000
+                                         low                33      21.3939394
+                                         med                65      19.3076923
+                                         -------------------------------------
+
+                                         Analysis Variable : MPG_Highway Highway miles per gallon
+
+                                                             N
+                                         price_category    Obs            Mean
+                                         -------------------------------------
+                                         hig                 2      26.5000000
+                                         low                33      28.6666667
+                                         med                65      26.9384615
+                                         -------------------------------------
+
+

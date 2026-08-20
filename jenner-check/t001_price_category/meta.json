@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_price_category",
+  "source_file": "Assignment 01.1.sas~.sas",
+  "source_blob_sha": "98e1c2d730f2cea313200a81b0fc702eef5f0575",
+  "source_commit": "a439391da2b4d160d6c152edca049027f542a4a2",
+  "notes": "Coursework script profiling sashelp.cars: PROC PRINT/MEANS/FREQ, a price-tier DATA step, and PROC EXPORT to CSV. Only edit: the hardcoded local PROC EXPORT path (/home/u63899078/assignment2/price_category.csv) was rewritten to a relative ./output/price_category.csv so it runs in isolation. All PROC logic, options, and variable names are unmodified from the author's script, including the mpg_city2 data step's second WHERE statement, which overwrites the first per SAS semantics and yields 0 rows -- that is the author's own logic, reproduced faithfully rather than corrected."
+}
