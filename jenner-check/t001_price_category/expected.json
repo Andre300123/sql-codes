@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-08-20T12:46:00Z",
+  "_captured_run_id": "r_f1c605fc89d84329b4b62d08670321df",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote cars (100 rows, 15 columns).",
+    "NOTE: PROC PRINT completed: 10 observations printed, 15 variables",
+    "NOTE: Wrote price_category (100 rows, 16 columns).",
+    "NOTE: PROC PRINT completed: 100 observations printed, 16 variables",
+    "NOTE: Exported 100 rows to ./output/price_category.csv."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
